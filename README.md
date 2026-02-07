@@ -32,3 +32,9 @@
 ├── go.mod            # 📦 Module dependencies
 ├── students.db       # 💾 SQLite Database file (Auto-generated)
 └── README.md         # 📄 Project documentation
+
+# คัดลอกโปรเจกต์จาก Repository
+git clone <your-repo-url>
+
+# ติดตั้ง Library ต่างๆ ที่จำเป็น
+go mod download
