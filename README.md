@@ -55,11 +55,11 @@ go run main.go
 ข้อมูล API (API Documentation)
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
-| **GET** | **/students** | **ดึงข้อมูลนักเรียนทั้งหมด** |
-| **GET** | **/students/{id}** | **ค้นหานักเรียนด้วย ID** |
-| **POST** | **/students** | **เพิ่มข้อมูลนักเรียนใหม่** |
-| **PUT** | **/students/{id}** | **แก้ไขข้อมูลนักเรียน** |
-| **DELETE** | **/students/{id}** | **ลบข้อมูลนักเรียน** |
+| GET | /students | ดึงข้อมูลนักเรียนทั้งหมด |
+| GET | /students/{id} | ค้นหานักเรียนด้วย ID |
+| POST | /students | เพิ่มข้อมูลนักเรียนใหม่ |
+| PUT | /students/{id} | แก้ไขข้อมูลนักเรียน |
+| DELETE | /students/{id} | ลบข้อมูลนักเรียน |
 
 ---
 
